@@ -1,0 +1,51 @@
+.container {
+  padding: 1.5rem;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.addLink {
+  color: #eb9225;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d1d5db;
+}
+
+.tableHeader {
+  background-color: #4e4e4e;
+}
+
+.tableHeaderCell {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+}
+
+.tableRow:hover {
+  background-color: #f9fafb;
+}
+
+.tableCell {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+}
